@@ -18,7 +18,8 @@
   "homepage": "https://github.com/zusinShinpei/eslint-config-react-native-shinpei",
   "devDependencies": {
     "semantic-release": "^15.13.28",
-    "semantic-release-cli": "^5.2.1"
+    "semantic-release-cli": "^5.2.1",
+    "underscore.string": ">=3.3.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.5.0",
