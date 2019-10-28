@@ -33,6 +33,7 @@
     "eslint-plugin-react-native": "^3.8.1",
     "prettier": "^1.18.2",
     "typescript": "^3.6.4",
-    "eslint": "^6.6.0"
+    "eslint": "^6.6.0",
+    "eslint-config-react-native-wcandillon": "^2.1.0"
   }
 }
