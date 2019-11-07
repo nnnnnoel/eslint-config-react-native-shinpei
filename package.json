@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-shinpei",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "underscore.string": ">=3.3.5"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.5.0",
-    "@typescript-eslint/parser": "^2.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
@@ -33,7 +33,7 @@
     "eslint-plugin-react-hooks": "^2.2.0",
     "eslint-plugin-react-native": "^3.8.1",
     "prettier": "^1.18.2",
-    "typescript": "^3.6.4",
+    "typescript": "^3.7.2",
     "eslint": "^6.6.0",
     "eslint-config-react-native-wcandillon": "^2.1.0"
   }
