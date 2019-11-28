@@ -1,11 +1,8 @@
 {
   "name": "eslint-config-react-native-shinpei",
-  "version": "0.0.7",
-  "description": "",
+  "version": "0.0.8",
+  "description": "eslint config for babel-import + ts + react-native",
   "main": "index.js",
-  "scripts": {
-    "semantic-release": "semantic-release"
-  },
   "keywords": [
     "eslint config",
     "shinpei",
@@ -16,17 +13,12 @@
     "type": "git",
     "url": "https://github.com/zusinShinpei/eslint-config-react-native-shinpei.git"
   },
-  "author": "Minhyuk Kim <zusin.shinpei@gmail.com>",
+  "author": "Minhyuk Kim <react-native@kakao.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zusinShinpei/eslint-config-react-native-shinpei"
   },
   "homepage": "https://github.com/zusinShinpei/eslint-config-react-native-shinpei",
-  "devDependencies": {
-    "semantic-release": "^15.13.28",
-    "semantic-release-cli": "^5.2.1",
-    "underscore.string": ">=3.3.5"
-  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.6.1",
     "@typescript-eslint/parser": "^2.6.1",
