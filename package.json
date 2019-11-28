@@ -1,11 +1,17 @@
 {
   "name": "eslint-config-react-native-shinpei",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
     "semantic-release": "semantic-release"
   },
+  "keywords": [
+    "eslint config",
+    "shinpei",
+    "react native",
+    "zusinShinpei"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zusinShinpei/eslint-config-react-native-shinpei.git"
