@@ -1,12 +1,14 @@
 module.exports = {
   'extends': [
     'eslint-config-react-native-wcandillon',
+    'plugin:json/recommended',
   ],
   'parser': 'babel-eslint',
   'plugins': [
     'jest',
     'import',
     '@typescript-eslint',
+    'json',
   ],
   'env': {
     'jest/globals': true,
@@ -53,6 +55,7 @@ module.exports = {
     'import/no-absolute-path': 0,
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/ban-ts-ignore': 0,
+    'max-len': 0,
     'no-extra-boolean-cast': 0,
     'no-undef': [
       0,
@@ -67,6 +70,7 @@ module.exports = {
         'argsIgnorePattern': '^_',
       },
     ],
+    '@typescript-eslint/no-non-null-assertion': 0,
     'import/no-unresolved': [
       2,
       {
@@ -91,17 +95,11 @@ module.exports = {
         ],
       },
     ],
-  },
-  'settings': {
-    'import/resolver': {
-      'node': {
-        'extensions': [
-          '.ts',
-          '.tsx',
-          '.js',
-          '.json',
-        ],
+    'json/*': [
+      'error',
+      {
+        'allowComments': true,
       },
-    },
-  },
+    ]
+  }
 };
