@@ -100,6 +100,13 @@ module.exports = {
       {
         'allowComments': true,
       },
-    ]
-  }
+    ],
+  },
+  'settings': {
+    'import/resolver': {
+      'node': {
+        'extensions': ['.ts', '.tsx', '.js', '.json'],
+      },
+    },
+  },
 };
