@@ -92,6 +92,7 @@ module.exports = {
     'no-extra-boolean-cast': 0,
     'no-nested-ternary': 0,
     'no-undef': 0,
+    "no-unused-expressions": 0,
     'no-unused-vars': 0,
     'no-use-before-define': ['error', { 'variables': false }],
     'prettier/prettier': 0,
