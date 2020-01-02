@@ -23,13 +23,18 @@ module.exports = {
     {
       'files': [
         '**/*.tsx',
-        '**/*.ts'
       ],
       'parser': '@typescript-eslint/parser',
       'parserOptions': {
         'ecmaFeatures.jsx': true,
         'project': './tsconfig.json'
       }
+    },
+    {
+      'files': [
+        '**/*.ts',
+      ],
+      'parser': '@typescript-eslint/parser'
     }
   ],
   'parserOptions': {
@@ -65,6 +70,16 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
+    'import/extensions': [
+      2,
+      {
+        'js': 'never',
+        'json': 'always',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never'
+      }
+    ],
     'import/no-absolute-path': 0,
     'import/no-extraneous-dependencies': 2,
     'import/no-unresolved': [
@@ -91,10 +106,20 @@ module.exports = {
     'no-console': 0,
     'no-extra-boolean-cast': 0,
     'no-nested-ternary': 0,
+    'no-param-reassign': [
+      2,
+      {
+        'ignorePropertyModificationsFor': ['^draft']
+      }
+    ],
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-undef': 0,
-    "no-unused-expressions": 0,
+    'no-underscore-dangle': 0,
+    'no-unused-expressions': 0,
     'no-unused-vars': 0,
     'no-use-before-define': ['error', { 'variables': false }],
+    'one-var': 0,
+    'prefer-template': 0,
     'prettier/prettier': 0,
     'quotes': [
       'error',
@@ -120,14 +145,17 @@ module.exports = {
       }
     ],
     'react/jsx-props-no-spreading': 0,
-    "react/no-array-index-key": 0,
+    'react/no-array-index-key': 0,
     'react-hooks/exhaustive-deps': 2,
     'react-hooks/rules-of-hooks': 2,
     'react-native/no-color-literals': 0,
     'react-native/no-inline-styles': 0,
     'react-native/no-raw-text': 0,
     'react-native/no-unused-styles': 2,
-    'react-native/split-platform-components': 2
+    'react-native/split-platform-components': 2,
+    'react/prop-types': 0,
+    'react/jsx-one-expression-per-line': 0,
+    'react/jsx-wrap-multilines': 0
   },
   'settings': {
     'import/resolver': {
@@ -148,7 +176,9 @@ module.exports = {
           '.web.js',
           '.web.jsx',
           '.web.ts',
-          '.web.tsx'
+          '.web.tsx',
+          '.d.ts',
+          '.d'
         ]
       }
     }
