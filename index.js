@@ -146,7 +146,7 @@ module.exports = {
     ],
     'react/jsx-props-no-spreading': 0,
     'react/no-array-index-key': 0,
-    'react-hooks/exhaustive-deps': 2,
+    'react-hooks/exhaustive-deps': 1,
     'react-hooks/rules-of-hooks': 2,
     'react-native/no-color-literals': 0,
     'react-native/no-inline-styles': 0,

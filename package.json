@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-shinpei",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "eslint config for babel-import + ts + react-native",
   "main": "index.js",
   "keywords": [
